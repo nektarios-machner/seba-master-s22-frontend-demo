@@ -1,13 +1,34 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todolist {
+  width: fit-content;
+  background-color: rgb(208, 211, 213);
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.card {
+  width: 200px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: rgb(222, 236, 248);
+  border-radius: 5px;
+  padding: 0px 10px 15px 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: brown;
 }

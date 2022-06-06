@@ -1,6 +1,13 @@
+import TodoList from "./components/TodoList";
+
 function App() {
   return (
-  <h1>Hello World</h1>
+    <div>
+      <TodoList
+        title="SEBA Master ToDo-List"
+        description="All I need to learn to master this course"
+      />
+    </div>
   );
 }
 
